@@ -6,9 +6,9 @@
 #       extension: .py
 #       format_name: percent
 #       format_version: '1.3'
-#       jupytext_version: 1.4.2
+#       jupytext_version: 1.14.5
 #   kernelspec:
-#     display_name: Python 3
+#     display_name: Python 3 (ipykernel)
 #     language: python
 #     name: python3
 # ---
@@ -487,3 +487,5 @@ print(swaption4.underlyingValue())
 # As a final remark we note that the calibration to coterminal swaptions is not particularly reasonable here, because the European call rights are not well represented by these swaptions. Secondly, our CMS swaption is sensitive to the correlation between the 10y swap rate and the Euribor 6M rate. Since the Markov model is one factor it will most probably underestimate the market value by construction.
 #
 # That was it. Thank you for running this demo. Bye.
+
+# %%

@@ -6,9 +6,9 @@
 #       extension: .py
 #       format_name: light
 #       format_version: '1.5'
-#       jupytext_version: 1.11.2
+#       jupytext_version: 1.14.5
 #   kernelspec:
-#     display_name: Python 3
+#     display_name: Python 3 (ipykernel)
 #     language: python
 #     name: python3
 # ---
@@ -176,3 +176,5 @@ df.style.format({'Spread': '{:.4%}', 'Hazard rate': '{:.2%}', 'Upfront': '{:.2f}
                  'Markit value': '{:.2f}', 'Distance': '{:.6f}'})
 
 print('total distance:',distance)
+
+

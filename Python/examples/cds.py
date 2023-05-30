@@ -6,9 +6,9 @@
 #       extension: .py
 #       format_name: light
 #       format_version: '1.5'
-#       jupytext_version: 1.4.2
+#       jupytext_version: 1.14.5
 #   kernelspec:
-#     display_name: Python 3
+#     display_name: Python 3 (ipykernel)
 #     language: python
 #     name: python3
 # ---
@@ -110,3 +110,5 @@ for cds, tenor in zip(all_cds, tenors):
     print("   default leg: %.7g" % cds.defaultLegNPV())
     print("   coupon leg: %.7g" % cds.couponLegNPV())
     print("")
+
+
